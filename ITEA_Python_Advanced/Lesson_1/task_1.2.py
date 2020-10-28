@@ -1,3 +1,10 @@
+# Создать словарь Страна:Столица.
+# Создать список стран. Не все страны со списка должны
+# сходиться с названиями стран со словаря.
+# С помощою оператора in проверить на вхождение элемента
+# страны в словарь, и если такой ключ действительно
+# существует вывести столицу.
+
 country_dict = {
     'Austria': 'Vienna',  # All 45 countries of Europe and their capitals
     'Albania': 'Tirana',
@@ -43,11 +50,10 @@ country_dict = {
     'Switzerland': 'Bern',
     'Sweden': 'Stockholm',
     'Estonia': 'Tallinn',
-
 }
 
 country_list = ['Ukraine', 'California', 'Spain', 'China', 'Monaco', 'Nigeria', 'Vatican', 'Poland', 'France']
 
 for i in country_list:
     if i in country_dict:
-        print(country_dict[i])
+        print(i)
